@@ -16,16 +16,27 @@
    ```
 3. repository에 대한 설명을 하기 위하여 README.md 파일 생성하기
 4. 원격 repository 별명 설정하기 : 
-   `git remote add origin https://github.com/elquineas/Biz-2023-04-java.git`
+   ```bash
+   git remote add origin https://github.com/elquineas/Biz-2023-04-java.git
+   ```
 
 ### 기존의 repository에 계속해서 update 하고자 할 때
 5. 현재 폴더의 파일과 폴더를 
-   local Repository에 압축하고, 암호화하여 보관하기 : `git add .`
+   local Repository에 압축하고, 암호화하여 보관하기 : 
+   ```bash
+   git add .
+   ```
 6. 현재 local Repository에 보관된 압축된 데이터에 대한 
-   Comment를 추가하기 : `git commit -m first`
+   Comment를 추가하기 : 
+   ```bash
+   git commit -m first
+   ```
 7. local Repository에 보관된 압축된 데이터를 
-   원격 Repository로 push : `git push -u origin master`
-   
+   원격 Repository로 push : 
+   ```bash
+   git push -u origin master
+   ```
+
 ```bash
 git init (처음1회)
 git add README.md
